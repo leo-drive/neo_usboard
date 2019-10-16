@@ -9,6 +9,7 @@
 ##########################
 #    device parameter    #
 ##########################
+  //ToDo Change ComPort Name
 ComPort: /dev/ttyUSB0
 usboard_timeout_: 0.5
 requestRate: 5
@@ -25,11 +26,11 @@ sensor5_active: true
 sensor6_active: true
 sensor7_active: false
 sensor8_active: false
-sensor9_active: false
-sensor10_active: false
-sensor11_active: false
-sensor12_active: false
-sensor13_active: false
-sensor14_active: false
+sensor9_active: true
+sensor10_active: true
+sensor11_active: true
+sensor12_active: true
+sensor13_active: true
+sensor14_active: true
 sensor15_active: false
 sensor16_active: false
