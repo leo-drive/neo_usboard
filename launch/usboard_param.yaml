@@ -9,7 +9,6 @@
 ##########################
 #    device parameter    #
 ##########################
-  //ToDo Change ComPort Name
 ComPort: /dev/ttyUltrasonics
 usboard_timeout_: 0.5
 requestRate: 5
