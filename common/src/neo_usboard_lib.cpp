@@ -120,24 +120,24 @@ int neo_usboard_node::init()
      *
     ************************************************************************/
 
-    topicPub_usBoard = n.advertise<neo_msgs::USBoard>("/USBoard/Measurements",1);
+    topicPub_usBoard = n.advertise<neo_msgs::USBoard>("/ultrasonics/Measurements",1);
 
-    if(m_bUSBoardSensorActive[0])topicPub_USRangeSensor1 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor1",1);
-    if(m_bUSBoardSensorActive[1])topicPub_USRangeSensor2 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor2",1);
-    if(m_bUSBoardSensorActive[2])topicPub_USRangeSensor3 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor3",1);
-    if(m_bUSBoardSensorActive[3])topicPub_USRangeSensor4 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor4",1);
-    if(m_bUSBoardSensorActive[4])topicPub_USRangeSensor5 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor5",1);
-    if(m_bUSBoardSensorActive[5])topicPub_USRangeSensor6 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor6",1);
-    if(m_bUSBoardSensorActive[6])topicPub_USRangeSensor7 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor7",1);
-    if(m_bUSBoardSensorActive[7])topicPub_USRangeSensor8 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor8",1);
-    if(m_bUSBoardSensorActive[8])topicPub_USRangeSensor9 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor9",1);
-    if(m_bUSBoardSensorActive[9])topicPub_USRangeSensor10 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor10",1);
-    if(m_bUSBoardSensorActive[10])topicPub_USRangeSensor11 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor11",1);
-    if(m_bUSBoardSensorActive[11])topicPub_USRangeSensor12 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor12",1);
-    if(m_bUSBoardSensorActive[12])topicPub_USRangeSensor13 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor13",1);
-    if(m_bUSBoardSensorActive[13])topicPub_USRangeSensor14 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor14",1);
-    if(m_bUSBoardSensorActive[14])topicPub_USRangeSensor15 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor15",1);
-    if(m_bUSBoardSensorActive[15])topicPub_USRangeSensor16 = n.advertise<sensor_msgs::Range>("/USBoard/Sensor16",1);
+    if(m_bUSBoardSensorActive[0])topicPub_USRangeSensor1 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor1",1);
+    if(m_bUSBoardSensorActive[1])topicPub_USRangeSensor2 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor2",1);
+    if(m_bUSBoardSensorActive[2])topicPub_USRangeSensor3 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor3",1);
+    if(m_bUSBoardSensorActive[3])topicPub_USRangeSensor4 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor4",1);
+    if(m_bUSBoardSensorActive[4])topicPub_USRangeSensor5 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor5",1);
+    if(m_bUSBoardSensorActive[5])topicPub_USRangeSensor6 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor6",1);
+    if(m_bUSBoardSensorActive[6])topicPub_USRangeSensor7 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor7",1);
+    if(m_bUSBoardSensorActive[7])topicPub_USRangeSensor8 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor8",1);
+    if(m_bUSBoardSensorActive[8])topicPub_USRangeSensor9 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor9",1);
+    if(m_bUSBoardSensorActive[9])topicPub_USRangeSensor10 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor10",1);
+    if(m_bUSBoardSensorActive[10])topicPub_USRangeSensor11 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor11",1);
+    if(m_bUSBoardSensorActive[11])topicPub_USRangeSensor12 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor12",1);
+    if(m_bUSBoardSensorActive[12])topicPub_USRangeSensor13 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor13",1);
+    if(m_bUSBoardSensorActive[13])topicPub_USRangeSensor14 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor14",1);
+    if(m_bUSBoardSensorActive[14])topicPub_USRangeSensor15 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor15",1);
+    if(m_bUSBoardSensorActive[15])topicPub_USRangeSensor16 = n.advertise<sensor_msgs::Range>("/ultrasonics/Sensor16",1);
 
    return 0;
 }
