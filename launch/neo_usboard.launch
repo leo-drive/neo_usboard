@@ -5,6 +5,4 @@
     <!-- start usboard node -->
     <node pkg="neo_usboard" type="neo_usboard_node" ns="ultrasonics" name="usboard_node" respawn="false" output="screen"/>
 
-    <include file="$(find neo_usboard)/launch/transformations_ultrasonics.launch"/>
-
 </launch>
