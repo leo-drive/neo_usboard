@@ -2,50 +2,50 @@
   
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_01"
-        args="2.208 -0.660 -1.592 -0.47123 0 0 vlp32_01 usrangesensor1 100"/>
+        args="2.208 -0.660 -1.592 -0.47123 0 0 vlp32_01 usrangesensor2 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_02"
-        args="2.317 -0.280 -1.562 0 0 0 vlp32_01 usrangesensor2 100"/>
+        args="2.317 -0.280 -1.562 0 0 0 vlp32_01 usrangesensor3 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_03"
-        args="2.317 0.280 -1.562 0 0 0 vlp32_01 usrangesensor3 100"/>
+        args="2.317 0.280 -1.562 0 0 0 vlp32_01 usrangesensor4 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_04"
-        args="2.208 0.660 -1.592 0.47123 0 0 vlp32_01 usrangesensor4 100"/>
+        args="2.208 0.660 -1.592 0.47123 0 0 vlp32_01 usrangesensor5 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_05"
-        args="2.022 0.823 -1.400 1.57079 0 0 vlp32_01 usrangesensor5 100"/>
+        args="2.022 0.823 -1.400 1.57079 0 0 vlp32_01 usrangesensor6 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_06"
-        args="-1.166 0.833 -1.290 1.57079 0 0 vlp32_01 usrangesensor6 100"/>
+        args="-1.166 0.833 -1.290 1.57079 0 0 vlp32_01 usrangesensor7 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_07"
-        args="-1.512 0.557 -1.589 2.84488 0 0 vlp32_01 usrangesensor9 100"/>
+        args="-1.512 0.557 -1.589 2.84488 0 0 vlp32_01 usrangesensor8 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_08"
-        args="-1.602 0.190 -1.590 3.14159 0 0 vlp32_01 usrangesensor10 100"/>
+        args="-1.602 0.190 -1.590 3.14159 0 0 vlp32_01 usrangesensor9 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_09"
-        args="-1.602 -0.190 -1.590 3.14159 0 0 vlp32_01 usrangesensor11 100"/>
+        args="-1.602 -0.190 -1.590 3.14159 0 0 vlp32_01 usrangesensor10 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_10"
-        args="-1.512 -0.557 -1.589 3.43829 0 0 vlp32_01 usrangesensor12 100"/>
+        args="-1.512 -0.557 -1.589 3.43829 0 0 vlp32_01 usrangesensor11 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_11"
-        args="-1.166 -0.823 -1.290 -1.57079 0 0 vlp32_01 usrangesensor13 100"/>
+        args="-1.166 -0.823 -1.290 -1.57079 0 0 vlp32_01 usrangesensor12 100"/>
 
   <node pkg="tf" type="static_transform_publisher"
         name="transformation_vlp32_01_to_uss_12"
-        args="2.022 -0.823 -1.400 -1.57079 0 0 vlp32_01 usrangesensor14 100"/>
+        args="2.022 -0.823 -1.400 -1.57079 0 0 vlp32_01 usrangesensor1 100"/>
 
 </launch>
